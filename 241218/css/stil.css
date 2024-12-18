@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fresh-spring-background.jpg);
+    background-size: cover; 
+    min-height: 100vh;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#logo{
+    text-align: center;
+    padding: 24px;
+
+}
+#logo img{
+    width: 150px;
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
+#menu{
+    background-color: #fff;
+    box-shadow: 0 0 5px gray;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#menu a{
+    text-decoration: none;
+    color: #e66c06;
+    padding: 10px;
+    display: inline-block;
+}
+#menu a:hover{ /*üzerine gelindiğinde değişir.*/
+    color: green;
+    transition: 0.5s;
+}
+.banner{
+    text-align: center;
+}
+.urunler{
+    display: flex;
+    gap: 24px;
+}
+.urun{
+    flex: 1;
+    box-shadow: 0 0 5px gray;
+}
+.urun img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#sag{
+    color: green;
+    padding: 4px;
+    padding-right: 12px;
+}
+#sol{
+    color: #e66c06;
+    padding: 4px;
+    padding-left: 12px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff83;
+    box-shadow: 0 0 5px gray;
+    margin-top: 20px;
+    
+}
