@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Mesaj Gönder</h1>
+    <form action="kaydet.html" method="post">
+        <fieldset>
+          <br>
+          <input type="text" id="ad" name="ad" placeholder="Adınızı giriniz" required>
+          <br><br>
+
+          <input type="text" id="eposta" name="eposta" placeholder="E-posta adresinizi giriniz" required>
+          <br><br>
+
+         <input type="radio" id="kiz" name="cinsiyet" value="Kız">
+         <label for="kiz">Kız</label>
+
+         <input type="radio" id="erkek" name="cinsiyet" value="Erkek">
+         <label for="erkek">Erkek</label><br><br>
+
+            <select id="bilgi" name="bilgi">
+                <option value="bilgi">Bilgi almak istiyorum</option>
+                <option value="oneri">Öneride bulunmak istiyorum</option>
+                <option value="sikayet">Şikayetimi iletmek istiyorum</option>
+            </select>
+            <br><br>
+            <textarea name="aciklama" id="aciklama" cols="50" rows="10">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti harum cum culpa libero nostrum mollitia ratione, iusto iure ipsum quia ab laudantium sit illo eius! Eligendi, quae pariatur? Beatae, quisquam!
+            </textarea>
+            <br><br>
+            <button type="submit">Kaydet</button>
+            <button type="reset">Temizle</button>
+        </fieldset>
+
+</body>
+</html>
