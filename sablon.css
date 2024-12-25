@@ -1,0 +1,98 @@
+/*Genel*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+/*İskelet*/
+
+.container{
+    width: 960px;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap; /*taşma durumunda aşağı kaydır*/
+}
+
+.col-1{
+    flex:0 0 auto;  
+    width: 8.3333%; /*1br*/ 
+}
+.col-2{
+    flex:0 0 auto;  
+    width: 16.6666%; /*2br*/ 
+}
+.col-3{
+    flex:0 0 auto;  
+    width: 25%; /*3br*/ 
+}
+
+.col-4{
+    flex:0 0 auto;  
+    width: 33.3333%; /*4br*/
+}
+
+.col-5{
+    flex:0 0 auto;  
+    width: 41.6666%; /*5br*/ 
+}
+
+.col-6{
+    flex:0 0 auto;  
+    width: 50%; /*6br*/ 
+}
+
+.col-7{
+    flex:0 0 auto;  
+    width: 58.33333%; /*7br*/ 
+}
+
+.col-8{
+    flex:0 0 auto; 
+    width: 66.6666%; /*8br*/
+}
+
+.col-9{
+    flex:0 0 auto;  
+    width: 75%; /*9br*/ 
+}
+
+.col-10{
+    flex:0 0 auto;  
+    width: 83.3333%; /*10br*/ 
+}
+
+.col-11{
+    flex:0 0 auto;  
+    width: 91.6666%; /*11br*/ 
+}
+
+.col-12{
+    flex:0 0 auto;  
+    width: 100%; /*12br*/ 
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-end{
+    justify-content: end;
+}
+
+
+.nmarginx-5{
+    margin-left:-5px;
+    margin-right:-5px;
+}
